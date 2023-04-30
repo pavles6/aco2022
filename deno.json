@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "run": "cd \"$INIT_CWD\" && deno run -A main.ts & echo Running $(basename \"$INIT_CWD\"):"
+  }
+}
